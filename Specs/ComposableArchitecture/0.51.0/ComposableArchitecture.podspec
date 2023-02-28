@@ -19,8 +19,9 @@ Pod::Spec.new do |spec|
   spec.dependency "CasePaths"
   spec.dependency "CombineSchedulers"
   spec.dependency "CustomDump"
+  spec.dependency "Dependencies"
   spec.dependency "IdentifiedCollections"
+  spec.dependency "OrderedCollections"
   spec.dependency "_SwiftUINavigationState"
   spec.dependency "XCTestDynamicOverlay"
-  spec.dependency "ComposableArchitectureDependencies"
 end
