@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   # spec.watchos.deployment_target = "6.0"
 
   spec.source       = { :git => "https://github.com/pointfreeco/swift-dependencies.git", :tag => "#{spec.version}" }
-  spec.source_files = "Sources/**/*.swift"
+  spec.source_files = "Sources/Dependencies/**/*.swift"
   spec.dependency "CombineSchedulers"
   spec.dependency "XCTestDynamicOverlay"
   spec.dependency "Clocks"
